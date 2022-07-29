@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/*#7030CC header
+#1BBCEF button
+#6429B7 card
+#3F9CF2 last arrow
+#F28A3F  1
+#7ACA3A  2  */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.header-content {
+  background-color: #7030cc;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 60px 0px 60px;
+}
+
+.nav-section .logo .logo-image {
+  width: 120px;
+}
+
+.nav-section .navbar,
+.nav-section .navbar .nav-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px 30px;
+}
+
+.nav-section .navbar .nav-lists .nav-list {
+  margin: 0px 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f2f2f2da;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-section .navbar .nav-lists .nav-list:hover {
+  color: #b3b3b3;
+  border-bottom: 1px solid #1bbcef;
+}
+
+.nav-section .navbar-btn .nav-btn {
+  padding: 12px 30px;
+  border: 1px solid #1bbcef;
+  color: #ffffff;
+  outline: none;
+  background-color: #1bbcef;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-section .navbar-btn .nav-btn:hover {
+  color: #1bbcef;
+  background-color: transparent;
+  border: 1px solid #1bbcef;
+}
+
+.hero-section {
+  padding: 0px 20px 40px 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero-image {
+  width: 650px;
+}
+
+.hero-section-text {
+  margin-top: 100px;
+  padding-left: 10px;
+}
+
+.hero-heading {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-para {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ececec;
+  margin: 40px 0px;
+  line-height: 22px;
+}
+
+.benifits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 80px 40px 20px 40px;
+}
+
+.benifit-photo {
+  width: 600px;
+}
+
+.benifit-details {
+  margin-top: 60px;
+  margin-right: 30px;
+}
+
+.benifit-heading {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.benifit-points-header{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.benifit-points {
+  margin-bottom: 30px;
+}
+
+.bullet-point-image{
+width: 20px;
+margin-right: 10px;
+}
+
+.benifit-point {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.benifit-point-para {
+  font-size: 14px;
+  color: #484848;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.feature-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 110px;
+}
+
+.feature-card {
+  margin: 30px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px #e7e7e7;
+ 
+}
+
+.feature-card:hover .card-para{
+    color: #ffffff;
+}
+
+.feature-card:hover .card-text {
+  background-color: #7030cc;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.feature-image-outer-div {
+  padding: 20px;
+}
+
+.feature-card-image {
+  width: 100px;
+  padding: 25px;
+  margin: 7px;
+}
+
+.card-image-div {
+  background-color: #efefef;
+  border-radius: 100px;
+  height: 115px;
+  width: 115px;
+  margin: auto;
+}
+
+.card-text {
+  text-align: center;
+  padding: 15px 20px 20px 20px;
+  transition: 0.5s;
+}
+
+.card-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+  
+}
+
+.card-para{
+    transition: 0.7s;
+}
